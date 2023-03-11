@@ -7,9 +7,9 @@ let h = Number(prompt('Type the number 8 if the day it is a federal Holiday.'));
 
 if (w <= 8) {
     weekday = r * w; // formula if hours worked are less or equal to 8
-  } else {
+} else {
     weekday = r * 8 + (w - 8) * r * 1.5; // formula if hours worked are greater than 8
-  }
+}
 
 let saturday = (r * s * 1.5);
 let sunday = (r * d * 2);
@@ -20,16 +20,16 @@ let decimalEarnings = earnings.toFixed(2);
 console.log('Your earnings are: $', decimalEarnings);
 document.write("Your earnings before taxes are:$ " + decimalEarnings);
 
-if( w > 9.9){
+if(w > 9.9){
     console.log('Extra $30 dolares for lunch money. ');
     document.write(".___(extra $30 dolares for lunch money.) ");
-}else if( s > 1.9){
+}else if(s > 1.9){
     console.log('Extra $30 dolarßes for lunch money. ');
     document.write(".___(extra $30 dolares for lunch money.) ");
-}else if( d > 1.9){
+}else if(d > 1.9){
     console.log('Extra $30 dolares for lunch money. ');
     document.write(".___(extra $30 dolares for lunch money.) ");
-}else if( h > 1.9){
+}else if(h > 1.9){
     console.log('Extra $30 dolares for lunch money. ');
     document.write(".___(extra $30 dolares for lunch money.) ");
 }
